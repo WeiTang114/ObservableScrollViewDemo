@@ -17,11 +17,8 @@
             </intent-filter>
         </activity>
 
-        <activity
-            android:name="com.github.ksoichiro.android.observablescrollview.samples.FlexibleSpaceWithImageWithViewPagerTabActivity"
-            />
-
         <activity android:name="com.github.ksoichiro.android.observablescrollview.samples.FlexibleSpaceWithImageScrollViewActivity"
+                  android:theme="@style/AppTheme.Toolbar"
             />
         <activity android:name="com.github.ksoichiro.android.observablescrollview.samples.ViewPagerTabScrollViewActivity"
                   android:theme="@style/AppTheme.Toolbar"
